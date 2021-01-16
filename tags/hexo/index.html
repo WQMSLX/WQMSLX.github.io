@@ -79,8 +79,8 @@
   <div class="container use-motion">
     <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div id="id-header-inner" class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
@@ -216,6 +216,29 @@
 
     </header>
   </article>
+    <div class="collection-year">
+      <span class="collection-header">2016</span>
+    </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2016-03-16T08:12:43+08:00"
+              content="2016-03-16">
+          03-16
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2016/03/16/hello-world/" itemprop="url">
+            <span itemprop="name">hexo next</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
     </div>
   </div>
@@ -301,7 +324,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -421,3 +444,6 @@
 
 </body>
 </html>
+<!-- 改变css样式 -->
+<script type="text/javascript" src="/js/src/bg-beautifier.js"></script>
+<script>hexoChangeBanner();</script>
